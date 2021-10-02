@@ -1,0 +1,29 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class CWH_cbsePercentage {
+    public static void main(String[] args) {
+        System.out.println("CBSE Percentage");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("english marks are");
+        float a = sc.nextFloat();
+        System.out.println("maths makrs are ");
+        float b = sc.nextFloat();
+        System.out.println("science marks are ");
+        float c = sc.nextFloat();
+        System.out.println("history marks are");
+        float d = sc.nextFloat();
+        System.out.println("geography marks are");
+        float e = sc.nextFloat();
+        float sum = a+b+c+d+e;
+        System.out.println("the total marks are ");
+        System.out.println(sum);
+        float total = 100;
+        System.out.println("out of marks are ");
+        System.out.println(total);
+        float percentage = (sum*total)/100;
+        System.out.println("the percentage is");
+        System.out.println(percentage);
+    }
+}
